@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="11dp">
+
+        <ImageView
+            android:id="@+id/img_track"
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            app:srcCompat="@mipmap/ic_launcher"
+            tools:layout_editor_absoluteX="45dp"
+            tools:layout_editor_absoluteY="102dp" />
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tv_track"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:paddingLeft="11dp"
+                android:text="TextView"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="132dp"
+                tools:layout_editor_absoluteY="102dp" />
+
+            <TextView
+                android:id="@+id/tv_artist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:paddingLeft="11dp"
+                android:text="TextView"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="132dp"
+                tools:layout_editor_absoluteY="128dp" />
+
+            <TextView
+                android:id="@+id/tv_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="11dp"
+                android:text="TextView"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="132dp"
+                tools:layout_editor_absoluteY="155dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/img_track"
+        android:layout_marginTop="11dp">
+
+    </TextView>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
